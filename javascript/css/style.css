@@ -1,0 +1,38 @@
+body{
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	background: black;
+}
+.container{
+	max-width: 450px;
+	width: 100%;
+	background: #D3D3D3;
+	padding: 25px 35px;
+	border: 2px solid black;
+	//padding-right: 20px;
+}
+.head{
+	text-align: center;
+}
+.info{
+	text-align: left;
+	font-size: 14pt;
+}
+.options{
+	text-align: center;
+}
+.sub-button{
+	//background-color: #87CEFA;
+	text-align: center;	
+}
+.mainbody{
+	background-color: white;
+	padding: 20px;
+	padding-right: 30px;
+	justify-content: center;
+	align-items: center;
+    max-width: 900px;
+}
