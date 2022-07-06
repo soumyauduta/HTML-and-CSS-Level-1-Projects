@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <div class="mainbody">
+    <body>
+      <div class="container">
+        <form>
+          <div class="user-details">
+          <div class="fname">
+          <label for="fname"><b>First Name:</b></label>
+          <input type="text" name="fname" id="fname" placeholder="Your first name" required>
+        </div><br>
+
+         <div class="lname">
+          <label for="lname"><b>Last Name:</b></label>
+          <input type="text" name="lname" id="lname" placeholder="Your last name" required>
+        </div><br>
+
+        <div class="email">
+          <label for="email"><b>Email:</b></label>
+          <input type="email" name="email" id="email" placeholder="Your email address" required>
+        </div><br>
+
+        <div>
+          <label for="password"><b>Password:</b></label>
+          <input type="password" name="pwd" id="pwd" placeholder="Choose a strong password" required>
+        </div>
+        <br>
+        <div class="cof-pwd">
+          <label for="password"><b>Conform Password:</b></label>
+          <input type="password" name="pwd" id="pwd" placeholder="Retype your password" required>
+        </div><br>
+
+        <div class="dob">
+          <label for="dob"><b>Birthday:</b></label>
+          <input type="date" name="dob" id="dob" required>
+        </div><br>
+        <div class="head">
+          <h4>What is your gender?</h4>
+          </div>
+          <div class="gender">
+          <input type="radio" name="gender" id="female" required>
+          <label for="gender">Female</label>
+          <input type="radio" name="gender" id="male" required>
+          <label for="gender">Male</label>
+          <input type="radio" name="gender" id="other" required>
+          <label for="gender">Other</label>
+          <input type="radio" name="gender" required>
+          <label for="gender">Prefered not to answer</label>
+        </div>
+          <br>
+          <h4 class="head">Tell us a little bit about yourself!</h4>
+        <div class="info">
+        <input type="text" name="information" placeholder="A brief description about yourself" style="width: 430px;
+  height: 100px;">
+        </div>
+        <h4 class="head">What is your favorite front-end language</h4>
+        <div class="options">
+        <label for="language">
+          <select name="language" id="language" style="width: 80px; height: 25px;">
+            <option value="Html">Html</option>
+            <option value="CSS">CSS</option>
+            <option value="Js">Js</option>
+          </select>
+        </label>
+        </div>
+        <br>
+        
+        <div class="sub-button">
+         <button type="submit" id="submit" value="submit" style="color: black; background-color: #87CEFA; text-align: center; width: 430px; height: 30px;">Submit My Answers</button>
+         </div>
+       </div>
+        </form>
+      </div>
+    </body>
+  </div>
+</html>
